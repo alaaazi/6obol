@@ -45,13 +45,15 @@ const drums = new Howl({
     console.log(vh);
     document.documentElement.style.setProperty('--vh', `${vh}px`);
   }
-
-
-  setViewportHeight();
+setViewportHeight();
   window.addEventListener('resize', () => {
     setTimeout(setViewportHeight, 100);
   });
 
   tobol   .addEventListener('click', playDrum);
   tobol   .addEventListener('touchstart', playDrum);
+
+
+
+  
 
