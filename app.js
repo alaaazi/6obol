@@ -49,8 +49,7 @@ setViewportHeight();
   window.addEventListener('resize', () => {
     setTimeout(setViewportHeight, 100);
   });
-
-  tobol   .addEventListener('click', playDrum);
+ tobol   .addEventListener('click', playDrum);
   tobol   .addEventListener('touchstart', playDrum);
 
 
